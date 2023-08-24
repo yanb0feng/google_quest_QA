@@ -1,8 +1,8 @@
 [竞赛网址](https://www.kaggle.com/competitions/google-quest-challenge/overview)
 1.数据介绍  
  *  1.1:输入：question_type,question_body,question_body,question_user_page,answer,url,question_user_name,question_user_name等  
- *  1.2:输出：30项label，都介于[0,1]，都是衡量question和answer的指标，如question_body_critical，question_not_really_a_question，answer_type_instructions等  
-2.特征工程  
+ *  1.2:输出：30项label，都介于[0,1]，都是衡量question和answer的指标，如question_body_critical，question_not_really_a_question，answer_type_instructions等
+2 .特征工程  
  *  2.1.先查看各项输入的长度，输入的词云，各项输出的分布，这一点可以参考[kaggle上的一条帖子](https://www.kaggle.com/code/manikanthgoud/google-quest-challenge-data-preprocessing-fe)。有以下结果：  
   
   * *   2.1.1：输入中question_body，answer长度90%都在280词以下，但各自都有一些1000词以上的data，question_type长度80%在60词以下，同样有长句，其余项一般不长  
