@@ -3,6 +3,8 @@
 ## Competition URL
 [竞赛网址](https://www.kaggle.com/competitions/google-quest-challenge/overview)
 
+## 写在前面：第一次从零开始完成一个深度学习项目，比起coursera和李宏毅教授的补齐代码作业相比，感觉麻烦了不少，项目好像也不算简单。
+
 ## 1. 数据介绍  
 - 1.1: 输入：
    - question_type
